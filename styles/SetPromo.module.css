@@ -1,0 +1,142 @@
+.picturePlace {
+  width: 50px;
+  height: 43px;
+}
+.picturePlace1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.camera {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.alert {
+  width: 100%;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+.picturePlaceBackground {
+  background-color: rgba(186, 186, 186, 0.35);
+  border-radius: 50%;
+  border: 1px solid rgba(186, 186, 186, 0.35);
+  width: 220px;
+  height: 220px;
+}
+
+.yellowishButton {
+  background-color: #ffba33;
+  border: 1px solid #ffba33;
+  color: #6a4029;
+  font-weight: bold;
+  height: 59px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.brownButton {
+  background-color: #6a4029;
+  border: 1px solid #6a4029;
+  color: white;
+  font-weight: bold;
+  height: 59px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 6px 20px 0px #000000;
+  margin-top: 20px;
+}
+
+.greyButton {
+  background-color: rgba(186, 186, 186, 0.35);
+  border: 1px solid rgba(186, 186, 186, 0.35);
+  color: #5e5e5e;
+  font-weight: bold;
+  height: 59px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.redButton {
+  background-color: #a30000;
+  border: 1px solid #a30000;
+  color: white;
+  font-weight: bold;
+  height: 59px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.boldBrownText {
+  color: #6a4029;
+  font-weight: bold;
+}
+.boldBrownText1 {
+  color: #6a4029;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.setPromoForm {
+  border: none;
+  border-bottom: 1px solid #000000;
+  border-radius: 0px;
+  margin-top: 1rem;
+}
+.setPromoForm1 {
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  border-radius: 20px;
+  height: 50px;
+  margin-top: 20px;
+}
+.setPromoForm:focus {
+  box-shadow: none;
+}
+.setPromoForm1:focus {
+  box-shadow: none;
+}
+.yellowBullet {
+  background-color: #ffba33;
+  border: 1px solid #ffba33;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.greyBullet {
+  background-color: rgba(186, 186, 186, 0.35);
+  border: 1px solid rgba(186, 186, 186, 0.35);
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  word-wrap: break-word;
+}
+
+.smallerFont {
+  font-size: 9px;
+}
+
+.greyBackground {
+  background-color: rgba(186, 186, 186, 0.35);
+}
+
+.leftPanel {
+  padding-top: 50px;
+  padding-left: 5rem;
+}
+
+@media (max-width: 991.98px) {
+  .leftPanel {
+    padding-left: 0px;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}

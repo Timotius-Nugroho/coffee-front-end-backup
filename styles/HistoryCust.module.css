@@ -1,0 +1,245 @@
+@media (max-width: 600px) {
+  .btnClose {
+    margin: 0 auto !important;
+  }
+
+  .cardHistory {
+    padding: 0 40px !important;
+    box-sizing: border-box;
+    margin: 0 !important;
+  }
+
+  .colHistory {
+    padding: 10px !important;
+  }
+
+  .imgHistory {
+    width: 70px !important;
+    height: 70px !important;
+    margin: 0 !important;
+    border: rgb(172, 168, 168) solid 1px;
+    border-radius: 100%;
+  }
+
+  .container .rowCardHistory {
+    padding: 0px !important;
+  }
+
+  .container .rowCardHistory .colHistory {
+    width: 50%;
+  }
+
+  .nameHistory,
+  .priceHistory,
+  .statusHistory {
+    margin: 0;
+  }
+
+  .nameHistory {
+    font-size: 15px !important;
+  }
+
+  .priceHistory {
+    font-size: 10px !important;
+  }
+
+  .statusHistory {
+    font-size: 10px !important;
+  }
+
+  .colImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .colImg img {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+/* ===================================== */
+
+.mainContainer {
+  background: url("/bg.png");
+}
+.text {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.noteText {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 47px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.container {
+  padding: 100px 0px;
+}
+.nameHistory {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #000000;
+}
+.priceHistory {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #895537;
+}
+.statusHistory {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6a4029;
+}
+.cardHistory {
+  padding: 16px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.imgHistory {
+  width: 100%;
+  height: 83px;
+  margin-top: 30px;
+}
+.cardHistoryClick {
+  position: relative;
+  padding: 16px;
+  padding-right: 40px;
+  background: #ffffff;
+  opacity: 0.7;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.forDelete {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: -20px;
+  right: 40px;
+  cursor: pointer;
+}
+.forCancel {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  right: -10px;
+  top: -20px;
+  cursor: pointer;
+}
+.imgDelete {
+  width: 14px;
+  height: 16px;
+  position: absolute;
+  top: -7px;
+  right: 55px;
+  cursor: pointer;
+}
+.imgCancel {
+  position: absolute;
+  width: 14px;
+  height: 16px;
+  right: 5px;
+  top: -5px;
+  cursor: pointer;
+}
+.modalBody {
+  padding: 40px 60px;
+}
+.textDelete {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #000000;
+}
+.modal {
+  margin: 0 auto !important;
+}
+.btnClose {
+  background: #ffffff;
+  border: 3px solid #6a4029;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 3px solid #6a4029;
+  height: 84px;
+  padding: 23px 51px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #6a4029;
+}
+.btnDelete {
+  float: right;
+  height: 84px;
+  padding: 23px 51px;
+  background: #6a4029;
+  border-radius: 20px;
+  border: 1px solid #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffffff;
+}
+.btnClose:hover {
+  background: #ffeeef;
+  border: 3px solid #6a4029;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 3px solid #6a4029;
+  height: 84px;
+  padding: 23px 51px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #6a3154;
+}
+.btnDelete:hover {
+  float: right;
+  height: 84px;
+  padding: 23px 51px;
+  background: #6a3154;
+  border-radius: 20px;
+  border: 1px solid #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #ffeeef;
+}

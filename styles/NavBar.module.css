@@ -1,0 +1,71 @@
+.main {
+  position: relative;
+  background: #ffffff;
+  border-bottom: 0.5px solid #9f9f9f;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.brand {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b132a;
+}
+
+.colBrand {
+  padding-top: 7px;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.navbarWidth {
+  max-width: 1116px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: relative;
+}
+
+.navLink {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px !important;
+  line-height: 19px;
+  color: #4f5665;
+  margin-left: 40px;
+  text-decoration: none !important;
+}
+.formControl {
+  width: 178px;
+  background: #efeeee;
+  border-radius: 30px;
+}
+.formControl::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+  opacity: 0.5;
+}
+.formControl:focus {
+  box-shadow: none;
+  background: #efeeee;
+  border-radius: 30px;
+  border: none;
+}
+.notif {
+  margin-left: 40px;
+}
+.profile {
+  margin-left: 40px;
+  width: 40px;
+  border-radius: 70%;
+}

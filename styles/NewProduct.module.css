@@ -1,0 +1,249 @@
+@media (max-width: 512px) {
+  .formInput {
+    padding: 20px !important;
+  }
+  .col2 {
+    padding: 2px !important;
+  }
+  .unClick {
+    width: 100%;
+    font-size: 15px !important;
+    padding: 0px !important;
+    padding-top: 14px !important;
+  }
+  .click {
+    width: 100%;
+    font-size: 15px !important;
+    padding: 0px !important;
+    padding-top: 14px !important;
+  }
+}
+.validate {
+  text-align: center;
+  color: #a92c11;
+}
+.titleProduct {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #4f5665;
+  margin-top: 36px;
+  margin-bottom: 80px;
+}
+.page {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #6a4029;
+  margin-left: 5px;
+}
+.forImg {
+  background: rgba(186, 186, 186, 0.35);
+  padding: 108px 105px;
+  border: none;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+
+  margin-bottom: 38px;
+}
+.alert {
+  width: 100%;
+  margin-bottom: 35px;
+  border-radius: 20px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+.camera {
+  width: 90px;
+  height: 83px;
+}
+.cardImgProduct {
+  background: rgba(186, 186, 186, 0.35);
+  border: none;
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 38px;
+  padding: 0px;
+}
+.imageProduct {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.btnGalery {
+  width: 100%;
+  height: 88px;
+  margin-bottom: 35px;
+  background: #ffba33;
+  border-radius: 20px;
+  border: #ffba33;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #6a4029;
+}
+.btnGalery:hover {
+  width: 100%;
+  height: 88px;
+  margin-bottom: 35px;
+  background: #a9830c;
+  border-radius: 20px;
+  border: #a9830c;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #6a4029;
+  letter-spacing: 0 !important;
+}
+.btnSave {
+  width: 100%;
+  height: 88px;
+  margin-bottom: 10px;
+  background: #6a4029;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.4);
+  border-radius: 20px;
+  border: #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 138.84%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.btnSave:hover {
+  width: 100%;
+  height: 88px;
+  margin-bottom: 10px;
+  background: #a92c11;
+  box-shadow: 0px 6px 20px rgba(106, 64, 41, 0.4);
+  border-radius: 20px;
+  border: #a92c11;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 138.84%;
+  text-align: center;
+  letter-spacing: 0;
+  color: #ffffff;
+}
+
+.btnCancel {
+  width: 100%;
+  height: 88px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background: rgba(186, 186, 186, 0.35);
+  border-radius: 20px;
+  border: rgba(186, 186, 186, 0.35);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 138.84%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #4f5665;
+}
+.btnCancel:hover {
+  width: 100%;
+  height: 88px;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  background: rgba(140, 186, 170, 0.35);
+  border-radius: 20px;
+  border: rgba(140, 186, 170, 0.35);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 138.84%;
+  text-align: center;
+  color: #4f5665;
+  letter-spacing: 0;
+}
+.formInput {
+  padding-left: 20px;
+}
+.nameLabel {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6a4029;
+  margin-bottom: 20px;
+}
+.controlInput {
+  border: none;
+  border-bottom: 1px solid #4f5665;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-bottom: 54px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.controlInput::placeholder {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+.controlInput:focus {
+  box-shadow: none;
+}
+.rowCardCategory {
+  margin-top: 30px;
+}
+.click {
+  background: #ffba33;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 20px 17px;
+  border-radius: 100%;
+  border: #ffba33;
+  height: 70px;
+}
+.unClick {
+  background: rgba(186, 186, 186, 0.35);
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #4f5665;
+  padding: 20px 17px;
+  border-radius: 100%;
+  border: #4f5665;
+  cursor: pointer;
+  height: 70px;
+}

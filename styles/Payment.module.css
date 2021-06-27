@@ -1,0 +1,367 @@
+@media (max-width: 600px) {
+  .colDetails {
+    padding: 10px !important;
+    margin-top: 30px !important;
+  }
+
+  .countTotal {
+    text-align: center;
+  }
+
+  .nominalTotal {
+    text-align: center !important;
+  }
+
+  .invoice .cardOrder .rowCardOrder {
+    display: flex;
+    padding: 0;
+  }
+
+  .cardOrder .colCardOrderImg,
+  .cardOrder .colCardOrder,
+  .cardOrder .colPriceOrder {
+    width: 33%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+
+  .cardOrder .priceOrder,
+  .cardOrder .colCardOrder,
+  .cardOrder .colCardOrderImg {
+    padding: 20px !important;
+    margin: 10px 0;
+    text-align: right;
+  }
+
+  .cardOrder .colCardOrder,
+  .cardOrder .colCardOrderImg {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: right !important;
+  }
+
+  .cardOrder .rowCardOrder .colCardOrderImg {
+    margin: 0 !important;
+  }
+
+  .cardOrder .rowCardOrder .colPriceOrder {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+  }
+
+  .cardOrder .rowCardOrder .colCardOrder {
+    margin: 0;
+  }
+
+  .rowCountTotal {
+    border-top: black solid 1px !important;
+    display: flex;
+    margin: 0;
+  }
+
+  .rowCountTotal .countTotal,
+  .rowCountTotal .nominalTotal {
+    width: 50%;
+    padding: 0;
+  }
+
+  .rowCountTotal .countTotal {
+    text-align: left;
+  }
+
+  .rowCountTotal .nominalTotal {
+    text-align: right !important;
+  }
+}
+
+/* =============================================== */
+
+.mainBackground {
+  background: url("/bg2.png");
+}
+.mainContainer {
+  padding: 52px 10px 160px 10px;
+}
+.title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.invoice {
+  padding: 45px;
+  margin-top: 50px;
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.35);
+  border-radius: 20px;
+}
+.titleInvoice {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 52px;
+  color: #362115;
+  text-align: center;
+}
+
+.cardOrder .colCardOrderImg,
+.cardOrder .colCardOrder,
+.cardOrder .colPriceOrder {
+  width: 33.3%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardOrder .rowCardOrder .colPriceOrder {
+  justify-content: center;
+  text-align: center;
+}
+
+.rowCardOrder .colPriceOrder p {
+  margin: 0;
+}
+
+.Order {
+  font-family: Poppins;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+}
+.priceOrder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 30px;
+  width: 100%;
+}
+.imgOrder {
+  margin-top: 5px;
+  margin-left: 15px;
+  width: 100%;
+  border-radius: 20px;
+  border: #999694 solid 1px;
+}
+.cardOrder {
+  margin-top: 40px;
+  border: none;
+}
+
+.dropdown {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Poppins;
+  padding: 20px;
+}
+
+.invoice select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.invoice select:focus,
+.invoice option:focus {
+  outline: none;
+}
+
+.countInvoice {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #362115;
+}
+.nominal {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  color: #362115;
+}
+.rowCount {
+  margin-bottom: 5px;
+}
+.rowCountTotal {
+  margin-top: 45px;
+  border-top: black solid 1px;
+}
+.countTotal {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+  color: #362115;
+}
+.nominalTotal {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 45px;
+  text-align: right;
+  color: #362115;
+}
+.colDetails {
+  padding: 160px 60px;
+}
+.textDetails {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+}
+.edit {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.cardAddress {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 35px;
+}
+.address {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.addressDetails {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.phone {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.method {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.8);
+  margin-top: 40px;
+}
+.cardMethod {
+  background: #ffffff;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 34px 40px;
+}
+.radio {
+  margin-top: 12px;
+}
+.midtrans {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 5px;
+}
+.cod {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-top: 5px;
+}
+.btnConfirm {
+  height: 84px;
+  width: 100%;
+  margin-top: 70px;
+  background: #6a4029;
+  box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+  border-radius: 20px;
+  border: #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.btnConfirm:hover {
+  height: 84px;
+  width: 100%;
+  margin-top: 70px;
+  background: rgb(83, 58, 68);
+  box-shadow: 0px 10px 20px rgba(137, 85, 55, 0.4);
+  border-radius: 20px;
+  border: #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+.recMidtrans {
+  position: relative;
+}
+.logoMidtrans {
+  position: absolute;
+  left: 78px;
+  top: 45px;
+}
+.recCod {
+  position: relative;
+}
+.logoCod {
+  position: absolute;
+  left: 73px;
+  top: 117px;
+}

@@ -1,0 +1,287 @@
+.brownText {
+  color: #6a4029;
+}
+
+/* card color 
+background: #FFBA33;
+*/
+
+/* 
+height: 30px;
+width: 30px;
+left: 324px;
+top: 401px;
+border-radius: 0px;
+background: #0B132A;
+*/
+
+.col1 {
+  border-right: 0.5px solid #9f9f9f !important;
+}
+.cnt {
+  overflow: auto;
+  height: 550px;
+  border-radius: 10px;
+}
+.col2 {
+  padding: 29px;
+}
+.title {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #6a4029;
+  text-align: center;
+}
+.note {
+  margin-top: 16px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+.cardCoupons {
+  padding: 10px;
+  background: #88b788;
+  border-radius: 20px;
+  margin-bottom: 19px;
+}
+.cardCoupons2 {
+  padding: 10px;
+  background: #f5c361;
+  border-radius: 20px;
+  margin-bottom: 19px;
+}
+.cardCoupons3 {
+  padding: 10px;
+  background: #c59378;
+  border-radius: 20px;
+  margin-bottom: 19px;
+}
+.cardImgCoupons {
+  width: 85px;
+  height: 94px;
+}
+.nameCoupons {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.noteCoupons {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #000000;
+}
+.btnApply {
+  background: #6a4029;
+  border-radius: 20px;
+  width: 100%;
+  height: 64px;
+  margin-top: 20px;
+  border: #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.btnApply:hover {
+  background: #6a4145;
+  border-radius: 20px;
+  width: 100%;
+  height: 64px;
+  margin-top: 20px;
+  border: #6a4029;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #ffffff;
+}
+.terms {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f5665;
+  text-align: left;
+}
+.listTerm {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #4f5665;
+  text-align: left;
+  padding-left: 0px !important;
+}
+.link {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #9f9f9f;
+  margin-right: 20px;
+}
+.cardMenu {
+  cursor: pointer;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+  border-radius: 30px;
+  border: none;
+  position: relative;
+  width: 180px;
+  height: 260px;
+}
+.nameMenu {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 101.34%;
+  text-align: center;
+  color: #000000;
+}
+.price {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #6a4029;
+}
+
+.updateButton {
+  background-color: #0b132a;
+  border-radius: 50%;
+}
+
+.updateButton2 {
+  background-color: #0b132a;
+  border-radius: 50%;
+  top: 93%;
+  left: 7%;
+}
+
+.updateButtonWidth {
+  padding: 6px 8px 6px 8px;
+}
+
+.deleteButton {
+  background-color: #6a4029;
+  border-radius: 50%;
+}
+
+.deleteButton2 {
+  background-color: #6a4029;
+  border-radius: 50%;
+  top: 93%;
+  right: 7%;
+}
+
+.deleteButtonWidth {
+  padding: 6px 7px 6px 7px;
+}
+
+.deleteButtonWidth2 {
+  padding: 6px 8px 6px 8px;
+}
+
+.updateAndDelete2 {
+  width: 84%;
+  left: 8%;
+  top: 93%;
+}
+
+/* 
+.updateButton
+height: 30px;
+width: 30px;
+left: 324px;
+top: 401px;
+border-radius: 0px;
+background: #0B132A;
+*/
+
+/* 
+.deleteButton 
+height: 30px;
+width: 30px;
+left: 359px;
+top: 401px;
+border-radius: 0px;
+background: #6A4029;
+*/
+
+.nav {
+  margin-bottom: 50px;
+}
+.mainContainer {
+  margin-bottom: 100px;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  outline: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  color: #f5c361;
+}
+.pagination > .active > a {
+  background-color: #6a4029;
+  border-color: #6a4029;
+  border-radius: 6px;
+  color: #fff;
+}
+.pagination > li > a {
+  border: 1px solid #6a4029;
+  border-radius: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #6a4029;
+  border-color: #6a4029;
+  border-radius: 6px;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #6a4029;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 6px;
+}

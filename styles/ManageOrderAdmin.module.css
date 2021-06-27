@@ -1,0 +1,132 @@
+@media (max-width: 512px) {
+  .col1 {
+    margin: 0 auto !important;
+    text-align: center;
+  }
+  .col2 {
+    margin-right: 20px !important;
+  }
+  .col3 {
+    margin: 0 auto !important;
+  }
+  .pagination {
+    margin-right: 30px !important;
+  }
+}
+.productImg {
+  width: 60px;
+  height: 60px;
+}
+.pageBackground {
+  background-image: url("/bg2.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.customerOrderStyle {
+  color: white;
+  text-shadow: 3px 3px #000000;
+}
+
+.bigCard {
+  border-radius: 20px;
+}
+
+.brownText {
+  color: #895537;
+}
+
+.cardVectorBackground {
+  background-color: #f47b0a;
+  border-radius: 5px;
+}
+
+.cardVectorSize {
+  width: 16px;
+  height: 12px;
+}
+
+.bankAccountBackground {
+  background-color: #895537;
+  border-radius: 5px;
+}
+
+.fastDeliveryBackground {
+  background-color: #ffba33;
+  border-radius: 5px;
+}
+
+.brownDoneButton {
+  background-color: #895537;
+  border: 1px solid #895537;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 20px;
+  height: 84px;
+}
+.pagination {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  list-style: none;
+  outline: none;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  color: #fff;
+}
+.pagination > .active > a {
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 6px;
+  color: #895537;
+}
+.pagination > li > a {
+  background-color: #895537;
+  border: 1px solid #895537;
+  border-radius: 6px;
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #fff;
+  border-color: #fff;
+  border-radius: 6px;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #6379f4;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 6px;
+}
+.success {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.modalBody {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+.container {
+  padding: 50px 100px;
+}
+
+.container h2 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #4f5665;
+  font-family: Rubik;
+}
+
+.container h2 span {
+  color: #6a4029;
+}
+
+.colLeft {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.colLeft img {
+  border: black solid 1px;
+  border-radius: 100%;
+  width: 320px;
+  height: 320px;
+}
+
+.colLeft .size {
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+  margin: 40px 0;
+  padding: 20px 0;
+}
+
+.colLeft .size h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+
+.colLeft .size .sizeFont {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.colLeft .size .sizeFont button {
+  background-color: #ffba33;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 100%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  padding: 0 !important;
+}
+
+.colLeft .size .sizeFont button h6 {
+  margin-top: 5px;
+}
+
+.colLeft .size button:hover {
+  background-color: #79550e;
+  color: white;
+}
+
+.colLeft button {
+  background: #6a4029;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.colLeft button:hover {
+  color: white;
+  background: #441d09;
+}
+
+.colRight {
+  padding: 50px 70px;
+}
+
+.colRight h1 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900 !important;
+  font-size: 65px;
+  color: #000000;
+  margin-bottom: 60px;
+}
+
+.colRight p {
+  font-size: 20px;
+  color: #6a4029;
+  line-height: 138.84%;
+  letter-spacing: 0.03em;
+  margin-bottom: 40px;
+}
+
+.colRight .total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0 40px 0;
+}
+
+.colRight .total .btnCount {
+  display: flex;
+  border: 1px solid #9f9f9f;
+  box-sizing: border-box;
+  border-radius: 10px;
+  color: #6a4029;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 37px;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.colRight .total .btnCount button {
+  background-color: white;
+  border: none;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 37px;
+  text-align: center;
+  color: #6a4029;
+  padding: 5px 10px;
+  width: 30%;
+}
+
+.colRight .total .btnCount button.minus {
+  border-radius: 10px 0 0 10px;
+}
+
+.colRight .total .btnCount button.minusTrash {
+  background-color: red;
+  border-radius: 10px 0 0 10px;
+}
+
+.colRight .total .btnCount button.minusTrash:hover {
+  background-color: rgb(161, 12, 12);
+}
+
+.colRight .total .btnCount button.plus {
+  border-radius: 0 10px 10px 0;
+}
+
+.colRight .total .btnCount button:hover {
+  background-color: #ffba33;
+}
+
+.colRight .total .btnCount h4 {
+  border-right: 1px solid #9f9f9f;
+  border-left: 1px solid #9f9f9f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 50%;
+}
+
+.colRight .total h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000000;
+}
+
+.colRight .checkout {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.34);
+  border-radius: 20px;
+}
+
+.colRight .checkout img {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.colRight .checkout .order h5 {
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.colRight .checkout .order h6 {
+  color: #000000;
+}
+
+.colRight .checkout h3 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #000000;
+}
+
+.colRight .checkout button {
+  border-radius: 100%;
+  width: 13%;
+  padding: 15px;
+  border: none;
+}
+
+.colRight .checkout button:hover {
+  background-color: #ce9524;
+}
+
+.colRight .checkout button img {
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .row,
+  .colLeft,
+  .colRight {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container h1 {
+    font-size: 30px !important;
+    margin: 30px 0;
+  }
+
+  .colLeft img {
+    width: 70%;
+    height: 70%;
+    margin-top: 20px;
+  }
+
+  .colRight .total .btnCount {
+    width: 120px !important;
+    font-size: 20px !important;
+    padding: 0;
+  }
+
+  .colRight .total .btnCount button {
+    padding: 0;
+  }
+
+  .btnCount img {
+    width: 60%;
+  }
+
+  .colRight .total h2 {
+    font-size: 25px;
+  }
+
+  .colRight .checkout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 30px;
+  }
+
+  .colRight .checkout img {
+    display: none;
+  }
+
+  .colRight .order {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+  }
+
+  .colRight .checkout h3 {
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  .colRight .checkout button {
+    width: 20%;
+    padding: 15px;
+  }
+
+  .colRight .checkout button img {
+    width: 100% !important;
+    display: flex !important;
+  }
+}

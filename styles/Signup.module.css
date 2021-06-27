@@ -1,0 +1,133 @@
+.leftSide {
+  background-image: url("/signup/signup_left_page.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.removeRowMargin {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.coffeeExpressLogo {
+  width: 10px;
+}
+
+.yellowExpressButton {
+  background-color: #ffba33;
+  width: 8rem;
+  border: 1px solid #ffba33;
+  border-radius: 30px;
+  height: 40px;
+}
+
+.memberCard {
+  position: absolute;
+  width: 50rem;
+  left: 50%;
+  right: 50%;
+  z-index: 2;
+  top: 96%;
+  transform: translate(-50%, -50%);
+}
+
+.memberCardLogin {
+  position: absolute;
+  width: 50rem;
+  left: 50%;
+  right: 50%;
+  z-index: 2;
+  top: 96%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 930px) and (min-width: 577px) {
+  .memberCard {
+    top: 767.625px;
+  }
+}
+
+@media (max-width: 576px) {
+  .memberCard {
+    top: 116%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .memberCardLogin {
+    top: 115%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.yellowExpressButtonLarger {
+  background-color: #ffba33;
+  width: 8rem;
+  border: 1px solid #ffba33;
+  border-radius: 15px;
+  height: 48px;
+}
+
+.yellowLoginButton {
+  position: relative;
+  right: 0;
+  margin-left: auto;
+}
+
+.yellowCardButton {
+  background-color: #ffba33;
+  width: 12rem;
+  border: 1px solid #ffba33;
+  border-radius: 7px;
+  height: 40px;
+}
+
+.whiteExpressButtonLarger {
+  background-color: white;
+  width: 8rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 48px;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.formWidth {
+  position: relative;
+  max-width: 448px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.inputHeight {
+  height: 48px;
+  border-radius: 15px;
+}
+.alert {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+
+/* Footer Spacing */
+.footerSpacingSignup {
+  margin-top: 7rem;
+}
+
+.footerSpacingLogin {
+  margin-top: 9rem;
+}
+
+@media (max-width: 576px) {
+  .footerSpacingSignup {
+    margin-top: 8rem;
+  }
+
+  .footerSpacingLogin {
+    margin-top: 8rem;
+  }
+}
