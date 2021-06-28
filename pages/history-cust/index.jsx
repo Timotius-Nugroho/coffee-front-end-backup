@@ -1,6 +1,6 @@
 import Layout from "components/Layout";
 import NavBar from "components/module/NavBar";
-import Footer from "components/module/footer";
+import Footer from "components/module/Footer";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styles from "../../styles/HistoryCust.module.css";
 import { useState, useEffect } from "react";
