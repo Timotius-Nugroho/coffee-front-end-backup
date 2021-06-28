@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
 import Layout from "../../components/Layout";
 import styles from "../../styles/ProductDetail.module.css";
-import Footer from "components/module/footer";
+import Footer from "components/module/Footer";
 import { authPage } from "middleware/authorizationPage";
 import axiosApiIntances from "utils/axios";
 import { useRouter } from "next/router";

@@ -1,6 +1,6 @@
 import Layout from "components/Layout";
 import NavBar from "components/module/AdminDashboardNavbar";
-import Footer from "components/module/footer";
+import Footer from "components/module/Footer";
 import {
   Container,
   Row,

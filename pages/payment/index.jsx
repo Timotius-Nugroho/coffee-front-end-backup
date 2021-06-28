@@ -1,5 +1,5 @@
 import Layout from "components/Layout";
-import Footer from "components/module/footer";
+import Footer from "components/module/Footer";
 import { Container, Row, Col, Card, Form, Button } from "react-bootstrap";
 import styles from "../../styles/Payment.module.css";
 import { useEffect, useState } from "react";
