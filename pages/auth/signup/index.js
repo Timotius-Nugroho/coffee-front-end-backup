@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useRouter } from "next/router";
 import Layout from "components/Layout";
 import styles from "../../../styles/Signup.module.css";
-import Footer from "../../../components/module/footer";
+import Footer from "../../../components/module/Footer";
 import axiosApiIntances from "utils/axios";
 import { Alert } from "react-bootstrap";
 import { unauthPage } from "middleware/authorizationPage";

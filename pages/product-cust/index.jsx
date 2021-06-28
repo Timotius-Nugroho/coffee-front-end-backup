@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import NavBar from "../../components/module/NavBar";
 import { Col, Container, Row, Card, Button, Nav } from "react-bootstrap";
 import styles from "../../styles/ProductCust.module.css";
-import Footer from "../../components/module/footer";
+import Footer from "../../components/module/Footer";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Cookie from "js-cookie";

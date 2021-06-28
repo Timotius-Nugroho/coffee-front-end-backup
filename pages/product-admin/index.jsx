@@ -1,6 +1,6 @@
 import Layout from "../../components/Layout";
 import Navbar from "../../components/module/AdminDashboardNavbar";
-import Footer from "../../components/module/footer";
+import Footer from "../../components/module/Footer";
 import { Col, Container, Row, Card, Button, Nav } from "react-bootstrap";
 import styles from "../../styles/ProductAdmin.module.css";
 import { useState, useEffect } from "react";

@@ -2,7 +2,7 @@ import Layout from "../../components/Layout";
 import Navbar from "../../components/module/AdminDashboardNavbar";
 import { Container, Row, Col, Card, Modal, Button } from "react-bootstrap";
 import styles from "../../styles/ManageOrderAdmin.module.css";
-import Footer from "../../components/module/footer";
+import Footer from "../../components/module/Footer";
 import axiosApiIntances from "utils/axios";
 import { authPage } from "middleware/authorizationPage";
 import ReactPaginate from "react-paginate";

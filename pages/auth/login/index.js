@@ -1,5 +1,5 @@
 import styles from "../../../styles/Signup.module.css";
-import Footer from "../../../components/module/footer";
+import Footer from "../../../components/module/Footer";
 import Layout from "components/Layout";
 import { connect } from "react-redux";
 import { login } from "redux/actions/auth";

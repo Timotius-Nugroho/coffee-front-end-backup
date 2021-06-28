@@ -1,7 +1,7 @@
 import AdminDashboardNavbar from "../../../components/module/AdminDashboardNavbar";
 import Layout from "../../../components/Layout";
 import styles from "../../../styles/Dashboard.module.css";
-import Footer from "../../../components/module/footer";
+import Footer from "../../../components/module/Footer";
 import axiosApiIntances from "utils/axios";
 import { authPage } from "middleware/authorizationPage";
 import {
